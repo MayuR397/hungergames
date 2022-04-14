@@ -1,0 +1,436 @@
+{
+  "get-restaurants": [
+    {
+      "name": "Mr. Pancake",
+      "id": 1,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 600,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 4.7,
+      "votes": 333,
+      "reviews": 555,
+      "src": "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-pancakes-349x436.jpg"
+    },
+    {
+      "name": "Cake Bake",
+      "id": 2,
+      "cuisine": ["continental", "Pizza", "Desserts"],
+      "costForTwo": 500,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": false,
+        "cash": true
+      },
+      "rating": 2.8,
+      "votes": 333,
+      "reviews": 222,
+      "src": "https://www.foodiesfeed.com/wp-content/uploads/2020/08/detail-of-pavlova-strawberry-piece-of-cake-349x465.jpg"
+    },
+    {
+      "name": "Desserts",
+      "id": 3,
+      "cuisine": ["Desserts"],
+      "costForTwo": 400,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 0.6,
+      "votes": 300,
+      "reviews": 900,
+      "src": "https://www.foodiesfeed.com/wp-content/uploads/2020/04/three-layer-smoothie-from-banana-kiwi-and-strawberry-on-a-wooden-background-349x524.jpg"
+    },
+    {
+      "name": "Wrap Wrap",
+      "id": 4,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 700,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 1.5,
+      "votes": 150,
+      "reviews": 500,
+      "src": "https://www.foodiesfeed.com/wp-content/uploads/2020/09/tacos-with-pulled-pork-fresh-vegetables-and-cream-349x465.jpg"
+    },
+    {
+      "name": "Drinks Time",
+      "id": 5,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 800,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 3.0,
+      "votes": 200,
+      "reviews": 425,
+      "src": "https://www.foodiesfeed.com/wp-content/uploads/2019/01/dreamy-flatwhite-coffee-with-perfect-latte-art-2-349x524.jpg"
+    },
+    {
+      "name": "Steamed & Fried",
+      "id": 6,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 900,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 2.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&w=1000&q=80"
+    },
+    {
+      "name": "Behrouz",
+      "id": 7,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 900,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 3.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Fresh Bakery",
+      "id": 8,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 900,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Chopstix",
+      "id": 9,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 900,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 3.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Barbeque",
+      "id": 10,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 900,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 2.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Qwinny's",
+      "id": 11,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 900,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": false,
+        "cash": true
+      },
+      "rating": 1.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Delight Express",
+      "id": 12,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 800,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 4.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1432139509613-5c4255815697?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Pasta Factory",
+      "id": 13,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 600,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": false,
+        "cash": true
+      },
+      "rating": 2.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Burger King",
+      "id": 14,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 450,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 3.6,
+      "votes": 100,
+      "reviews": 300,
+      "src": "https://images.unsplash.com/photo-1481070555726-e2fe8357725c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Chinese Kitchen",
+      "id": 15,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 800,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": false,
+        "cash": true
+      },
+      "rating": 1.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Biryani Blues",
+      "id": 16,
+      "cuisine": ["continental", "Desserts"],
+      "costForTwo": 900,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.1,
+      "votes": 600,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Om Sweets",
+      "id": 17,
+      "cuisine": ["Indian", "Desserts"],
+      "costForTwo": 400,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": false
+      },
+      "rating": 2.1,
+      "votes": 800,
+      "reviews": 700,
+      "src": "https://images.unsplash.com/photo-1589786742305-f24d19eedbe5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Green cafe",
+      "id": 18,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 900,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&w=1000&q=80"
+    },
+    {
+      "name": "Sikkim Fast food",
+      "id": 19,
+      "cuisine": ["continental", "Asian", "Pizza", "Desserts"],
+      "costForTwo": 600,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 3.1,
+      "votes": 100,
+      "reviews": 100,
+      "src": "https://images.unsplash.com/photo-1563310761-f8d8ed164063?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Bikanerwala",
+      "id": 20,
+      "cuisine": ["Indian", "Desserts"],
+      "costForTwo": 300,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.8,
+      "votes": 900,
+      "reviews": 800,
+      "src": "https://images.unsplash.com/photo-1517244683847-7456b63c5969?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Bikanerwala",
+      "id": 20,
+      "cuisine": ["Indian", "Desserts"],
+      "costForTwo": 300,
+      "minOrder": 50,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.8,
+      "votes": 900,
+      "reviews": 800,
+      "src": "https://images.unsplash.com/photo-1517244683847-7456b63c5969?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "The Beer Cafe Biggie",
+      "id": 21,
+      "cuisine": ["Indian", "Desserts"],
+      "costForTwo": 1300,
+      "minOrder": 150,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.0,
+      "votes": 900,
+      "reviews": 880,
+      "src": "https://b.zmtcdn.com/data/pictures/0/19463530/607835b4835149b4c2cb544b5420b9eb_o2_featured_v2.jpeg"
+    },
+    {
+      "name": "Empire Restaurant",
+      "id": 22,
+      "cuisine": ["North Indian", "Biryani", "kebab", "Chinese", "Beverages"],
+      "costForTwo": 1500,
+      "minOrder": 150,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.9,
+      "votes": 900,
+      "reviews": 880,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp"
+    },
+    {
+      "name": "Empire Restaurant",
+      "id": 23,
+      "cuisine": ["North Indian", "Biryani", "kebab", "Chinese", "Beverages"],
+      "costForTwo": 1500,
+      "minOrder": 150,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.9,
+      "votes": 900,
+      "reviews": 880,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp"
+    },
+    {
+      "name": "Empire Restaurant",
+      "id": 22,
+      "cuisine": ["North Indian", "Biryani", "kebab", "Chinese", "Beverages"],
+      "costForTwo": 1500,
+      "minOrder": 150,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.9,
+      "votes": 900,
+      "reviews": 880,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp"
+    },
+    {
+      "name": "Empire Restaurant",
+      "id": 24,
+      "cuisine": ["North Indian", "Biryani", "kebab", "Chinese", "Beverages"],
+      "costForTwo": 1500,
+      "minOrder": 150,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.9,
+      "votes": 900,
+      "reviews": 880,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp"
+    },
+    {
+      "name": "Empire Restaurant",
+      "id": 25,
+      "cuisine": ["North Indian", "Biryani", "kebab", "Chinese", "Beverages"],
+      "costForTwo": 1500,
+      "minOrder": 150,
+      "deliveryTime": 30,
+      "payment_methods": {
+        "card": true,
+        "cash": true
+      },
+      "rating": 4.9,
+      "votes": 900,
+      "reviews": 880,
+      "src": "https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp"
+    }
+  ]
+}

@@ -1,38 +1,168 @@
-.App {
+body{
+  background-image: url("https://www.teahub.io/photos/full/41-419298_background-image-for-restaurant-website.jpg");
+}
+.heading{
+  text-align: center;
+  text-shadow: 1.5px 1px 10px green;
+  color: wheat;
+}
+.sortHeadings{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+img{
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  background-color:beige;
+}
+h2{
+  color: rgba(128, 128, 128, 0.803);
+  font-size: 20px;
+  margin-left: 5px;
+}
+.maindiv{
+  margin: 20px;
+}
+.child2{
+  margin-left: 30px;
+}
+.child2 h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.costF2{
+  font-size: 15px;
+
+}
+.cost{
+  font-size: 15px;
+  color: black;
+}
+.sortBtn{
+  text-align: center;
+}
+.sortBtn>button{
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 5px yellow;
+  font-weight: bold;
+  border-radius: 5px;
+  color: black;
+  margin-left: 10px;
+  border: transparent;
+}
+.sortBtn>button:hover{
+  background-color: gold;
   color: white;
+  cursor: pointer;
+}
+.menuTypes{
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.cuisine{
+  color: grey;
+  font-size: 20px;
+}
+.ratingBtn{
+  text-align: center;
+}
+.ratingBtn>button{
+  height: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 5px yellow;
+  font-weight: bold;
+  border-radius: 5px;
+  color: black;
+  margin-left: 10px;
+  border: transparent;
+}
+.ratingBtn>button:hover{
+  background-color: gold;
+  color: white;
+  cursor: pointer;
+}
+h3{
+  color: brown;
+}
+.rat{
+  width: 30px;
+  height: 20px;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  background-color: rgb(34, 172, 34);
+  padding: 2px 2px 2px 2px;
+  border-radius: 10%;
+}
+.addResto{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+.toggle{
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+
+}
+.paymentBtn{
+  text-align: center;
+}
+.paymentBtn>button{
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 5px yellow;
+  font-weight: bold;
+  border-radius: 5px;
+  color: black;
+  margin-left: 10px;
+  border: transparent;
+}
+.paymentBtn>button:hover{
+  background-color: gold;
+  color: white;
+  cursor: pointer;
+}
+.pagination{
+  text-align: center;
+}
+.pagination>button{
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 5px yellow;
+  font-weight: bold;
+  border-radius: 5px;
+  color: black;
+  margin-left: 10px;
+  border: transparent;
+}
+.pagination>button:hover{
+  background-color: gold;
+  color: white;
+  cursor: pointer;
+}
+label{
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 200px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.retoData{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
